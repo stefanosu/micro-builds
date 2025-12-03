@@ -1,0 +1,6 @@
+[2025-12-02 09:00:00] [INFO]  Started program
+[2025-12-02 09:01:22] [WARN]  High memory usage
+[2025-12-02 09:03:55] [ERROR] Failed to connect
+[2025-12-02 09:00:00] [INFO]  Started program
+[2025-12-02 09:01:22] [WARN]  High memory usage
+[2025-12-02 09:03:55] [ERROR] Failed to connect

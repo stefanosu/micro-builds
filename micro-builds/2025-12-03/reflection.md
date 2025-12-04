@@ -1,6 +1,7 @@
 ## Reflection — 2025-12-03
 
 **What did I build?**
+I built a cli tool.
 
 
 **What surprised me or tripped me up?**

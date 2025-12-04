@@ -1,0 +1,5 @@
+/Users/stefanosugbit/Documents/micro-builds/micro-builds/2025-12-03/csharp/obj/Debug/net8.0/csharp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/stefanosugbit/Documents/micro-builds/micro-builds/2025-12-03/csharp/obj/Debug/net8.0/csharp.AssemblyInfoInputs.cache
+/Users/stefanosugbit/Documents/micro-builds/micro-builds/2025-12-03/csharp/obj/Debug/net8.0/csharp.AssemblyInfo.cs
+/Users/stefanosugbit/Documents/micro-builds/micro-builds/2025-12-03/csharp/obj/Debug/net8.0/csharp.csproj.CoreCompileInputs.cache
+/Users/stefanosugbit/Documents/micro-builds/micro-builds/2025-12-03/csharp/obj/Debug/net8.0/csharp.sourcelink.json

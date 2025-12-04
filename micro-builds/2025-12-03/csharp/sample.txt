@@ -1,0 +1,6 @@
+[INFO] Server initialized
+[INFO] Connected to cache
+[WARN] Response time high
+[INFO] Request handled successfully
+[ERROR] Null reference exception
+[INFO] Shutdown sequence initiated

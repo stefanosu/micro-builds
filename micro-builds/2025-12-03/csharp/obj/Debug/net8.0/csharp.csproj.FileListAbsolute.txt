@@ -3,3 +3,13 @@
 /Users/stefanosugbit/Documents/micro-builds/micro-builds/2025-12-03/csharp/obj/Debug/net8.0/csharp.AssemblyInfo.cs
 /Users/stefanosugbit/Documents/micro-builds/micro-builds/2025-12-03/csharp/obj/Debug/net8.0/csharp.csproj.CoreCompileInputs.cache
 /Users/stefanosugbit/Documents/micro-builds/micro-builds/2025-12-03/csharp/obj/Debug/net8.0/csharp.sourcelink.json
+/Users/stefanosugbit/Documents/micro-builds/micro-builds/2025-12-03/csharp/bin/Debug/net8.0/csharp
+/Users/stefanosugbit/Documents/micro-builds/micro-builds/2025-12-03/csharp/bin/Debug/net8.0/csharp.deps.json
+/Users/stefanosugbit/Documents/micro-builds/micro-builds/2025-12-03/csharp/bin/Debug/net8.0/csharp.runtimeconfig.json
+/Users/stefanosugbit/Documents/micro-builds/micro-builds/2025-12-03/csharp/bin/Debug/net8.0/csharp.dll
+/Users/stefanosugbit/Documents/micro-builds/micro-builds/2025-12-03/csharp/bin/Debug/net8.0/csharp.pdb
+/Users/stefanosugbit/Documents/micro-builds/micro-builds/2025-12-03/csharp/obj/Debug/net8.0/csharp.dll
+/Users/stefanosugbit/Documents/micro-builds/micro-builds/2025-12-03/csharp/obj/Debug/net8.0/refint/csharp.dll
+/Users/stefanosugbit/Documents/micro-builds/micro-builds/2025-12-03/csharp/obj/Debug/net8.0/csharp.pdb
+/Users/stefanosugbit/Documents/micro-builds/micro-builds/2025-12-03/csharp/obj/Debug/net8.0/csharp.genruntimeconfig.cache
+/Users/stefanosugbit/Documents/micro-builds/micro-builds/2025-12-03/csharp/obj/Debug/net8.0/ref/csharp.dll

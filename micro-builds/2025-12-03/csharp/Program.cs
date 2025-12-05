@@ -1,34 +1,42 @@
 ﻿var utils = new FileTools();
-var lines = utils.ReadLogFile(path);
+var cli = new CliRunner();
+cli.commandLineLogic(args, utils);
 
-
-public void commandLineLogic(string[] args, FileTools utils)
+public class CliRunner
 {
-    var name = "Stefanos";
-    var command = args[0];
-    var path = args[1];
-
-    if(args.Length >= 1) {
-        if(command == "greet")
-        {   
-            Console.WriteLine($"Hi {name} how is your spirit?");
-        } 
-    }
-
-    else if(command == "count")
+    public void commandLineLogic(string[] args, FileTools utils)
     {
-        if(args.Length < 2) 
+        if (args.Length == 0)
         {
-            Console.WriteLine("We need a file.");
+            Console.WriteLine("Argument empty!");
+            return;
         }
-        else if(!File.Exists(path)) 
+
+        var name = args[1];
+        var command = args[0];
+
+        if (command == "greet")
+            Console.WriteLine($"Hi {name} how is your spirit?");
+        else if (command == "count")
         {
-            Console.WriteLine("File does not exist!");
-        }
-        else
-        {
-            var lines = utils.ReadLogFile(path);
-            Console.WriteLine($"Print the count of lines: {lines.Count}");
+            if (args.Length < 2)
+            {
+                Console.WriteLine("We need a file.");
+            }
+            else
+            {
+                var path = args[1];
+
+                if (!File.Exists(path))
+                {
+                    Console.WriteLine("File does not exist!");
+                }
+                else
+                {
+                    var lines = utils.ReadLogFile(path);
+                    Console.WriteLine($"Print the count of lines: {lines.Count}");
+                }
+            }
         }
     }
 }
@@ -50,11 +58,3 @@ public void commandLineLogic(string[] args, FileTools utils)
 
 // 5. Else:
 //        Print "Unknown command".
-
-// Focus on:
-// Argument indexing
-// Basic branching
-// Clean code structure
-// Not mixing JS/C# syntax
-// Returning early on invalid input
-// Friendly error messages

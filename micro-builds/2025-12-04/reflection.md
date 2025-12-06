@@ -45,6 +45,7 @@ Best of all: the full CLI actually ran successfully — end to end. That feeling
 
 
 **If I revisited this in a week, what would I improve or extend?**
+
 Today’s improvements are different:
 
 I want to rewrite the wiring from memory.
@@ -55,5 +56,6 @@ I want to rebuild the entire CLI from scratch to test my mastery.
 
 
 **How would this change in another language I use (C#, TS/Node, Ruby)?**
+
 In TS/Node, the core idea would be similar but the typing system and the way command-line args are accessed (process.argv) would change the structure a bit.
 Ruby would feel more flexible and less strict about types, and probably more concise.

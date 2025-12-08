@@ -47,20 +47,6 @@ public class CliRunner
                 }
             }
         }
-        else if (command == "filter")
-        {
-            if (args.Length < 3)
-            {
-                Console.WriteLine("Usage: filter <level> <file>");
-                return;
-            }
-            else if (args.Length >= 3)
-            {
-                var level = args[1];
-                var path = args[2];
-                Console.WriteLine($"Filter called with level={level} and path={path}");
-            }
-        }
     }
 }
 

@@ -12,11 +12,20 @@ public class CliRunner
             return;
         }
 
-        var name = args[1];
         var command = args[0];
 
         if (command == "greet")
-            Console.WriteLine($"Hi {name} how is your spirit?");
+        {
+            if (args.Length < 2)
+            {
+                Console.WriteLine("No name provided!");
+            }
+            if (args.Length >= 2)
+            {
+                var name = args[1];
+                Console.WriteLine($"Hi {name} how is your spirit?");
+            }
+        }
         else if (command == "count")
         {
             if (args.Length < 2)
@@ -36,6 +45,20 @@ public class CliRunner
                     var lines = utils.ReadLogFile(path);
                     Console.WriteLine($"Print the count of lines: {lines.Count}");
                 }
+            }
+        }
+        else if (command == "filter")
+        {
+            if (args.Length < 3)
+            {
+                Console.WriteLine("Usage: filter <level> <file>");
+                return;
+            }
+            else if (args.Length >= 3)
+            {
+                var level = args[1];
+                var path = args[2];
+                Console.WriteLine($"Filter called with level={level} and path={path}");
             }
         }
     }

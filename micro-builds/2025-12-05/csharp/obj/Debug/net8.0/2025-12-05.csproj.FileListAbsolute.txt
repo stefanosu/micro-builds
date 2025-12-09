@@ -1,0 +1,15 @@
+/Users/stefanosugbit/Documents/micro-builds/micro-builds/2025-12-05/csharp/obj/Debug/net8.0/2025-12-05.GeneratedMSBuildEditorConfig.editorconfig
+/Users/stefanosugbit/Documents/micro-builds/micro-builds/2025-12-05/csharp/obj/Debug/net8.0/2025-12-05.AssemblyInfoInputs.cache
+/Users/stefanosugbit/Documents/micro-builds/micro-builds/2025-12-05/csharp/obj/Debug/net8.0/2025-12-05.AssemblyInfo.cs
+/Users/stefanosugbit/Documents/micro-builds/micro-builds/2025-12-05/csharp/obj/Debug/net8.0/2025-12-05.csproj.CoreCompileInputs.cache
+/Users/stefanosugbit/Documents/micro-builds/micro-builds/2025-12-05/csharp/obj/Debug/net8.0/2025-12-05.sourcelink.json
+/Users/stefanosugbit/Documents/micro-builds/micro-builds/2025-12-05/csharp/bin/Debug/net8.0/2025-12-05
+/Users/stefanosugbit/Documents/micro-builds/micro-builds/2025-12-05/csharp/bin/Debug/net8.0/2025-12-05.deps.json
+/Users/stefanosugbit/Documents/micro-builds/micro-builds/2025-12-05/csharp/bin/Debug/net8.0/2025-12-05.runtimeconfig.json
+/Users/stefanosugbit/Documents/micro-builds/micro-builds/2025-12-05/csharp/bin/Debug/net8.0/2025-12-05.dll
+/Users/stefanosugbit/Documents/micro-builds/micro-builds/2025-12-05/csharp/bin/Debug/net8.0/2025-12-05.pdb
+/Users/stefanosugbit/Documents/micro-builds/micro-builds/2025-12-05/csharp/obj/Debug/net8.0/2025-12-05.dll
+/Users/stefanosugbit/Documents/micro-builds/micro-builds/2025-12-05/csharp/obj/Debug/net8.0/refint/2025-12-05.dll
+/Users/stefanosugbit/Documents/micro-builds/micro-builds/2025-12-05/csharp/obj/Debug/net8.0/2025-12-05.pdb
+/Users/stefanosugbit/Documents/micro-builds/micro-builds/2025-12-05/csharp/obj/Debug/net8.0/2025-12-05.genruntimeconfig.cache
+/Users/stefanosugbit/Documents/micro-builds/micro-builds/2025-12-05/csharp/obj/Debug/net8.0/ref/2025-12-05.dll

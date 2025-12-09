@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/stefanosugbit/Documents/micro-builds/micro-builds/2025-12-05/2025-12-05.csproj": {}
+    "/Users/stefanosugbit/Documents/micro-builds/micro-builds/2025-12-05/csharp/2025-12-05.csproj": {}
   },
   "projects": {
-    "/Users/stefanosugbit/Documents/micro-builds/micro-builds/2025-12-05/2025-12-05.csproj": {
+    "/Users/stefanosugbit/Documents/micro-builds/micro-builds/2025-12-05/csharp/2025-12-05.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/stefanosugbit/Documents/micro-builds/micro-builds/2025-12-05/2025-12-05.csproj",
+        "projectUniqueName": "/Users/stefanosugbit/Documents/micro-builds/micro-builds/2025-12-05/csharp/2025-12-05.csproj",
         "projectName": "2025-12-05",
-        "projectPath": "/Users/stefanosugbit/Documents/micro-builds/micro-builds/2025-12-05/2025-12-05.csproj",
+        "projectPath": "/Users/stefanosugbit/Documents/micro-builds/micro-builds/2025-12-05/csharp/2025-12-05.csproj",
         "packagesPath": "/Users/stefanosugbit/.nuget/packages/",
-        "outputPath": "/Users/stefanosugbit/Documents/micro-builds/micro-builds/2025-12-05/obj/",
+        "outputPath": "/Users/stefanosugbit/Documents/micro-builds/micro-builds/2025-12-05/csharp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/stefanosugbit/.nuget/NuGet/NuGet.Config"

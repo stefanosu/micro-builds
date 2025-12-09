@@ -49,22 +49,25 @@ public class CliRunner
         }
         else if (command == "filter")
         {
+            var level = args[1];
+            var path = args[2];
+
             if (args.Length < 3)
             {
                 Console.WriteLine("Usage: filter <level> <file>");
                 return;
             }
-            else if (args.Length >= 3)
-            {
-                var level = args[1];
-                var path = args[2];
-                var normalizedLevel = level.ToLower();
+            else
+                {
+                    var lines = utils.ReadLogFile(path);
+                    Console.WriteLine($"Print the count of lines: {lines.Count}");
+                }
 
                 Console.WriteLine($"Filter called with level={normalizedLevel} and path={path}");
 
                 if (
                     normalizedLevel != "info"
-                    && normalizedLevel != "warn" 
+                    && normalizedLevel != "warn"
                     && normalizedLevel != "error"
                 )
                 {
@@ -72,7 +75,29 @@ public class CliRunner
                         $"Unknown level: {normalizedLevel}. Expected: info | warn | error."
                     );
                     return;
+
+                    string levelTag = "[INFO]";
                 }
+
+                if (normalizedLevel == "info")
+                {
+                    levelTag = "[INFO]";
+                }
+                else if (normalizedLevel == "warn")
+                {
+                    levelTag = "[WARN]";
+                }
+                else
+                {
+                    levelTag = "[ERROR]";
+                }
+
+            else if (args.Length >= 3)
+            {
+                var level = args[1];
+                var path = args[2];
+                var normalizedLevel = level.ToLower();
+                
             }
         }
     }

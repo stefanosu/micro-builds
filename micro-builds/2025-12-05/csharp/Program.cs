@@ -47,39 +47,35 @@ public class CliRunner
                 }
             }
         }
-        else if (command == "filter")
-        {
-            var level = args[1];
-            var path = args[2];
+        
+    }
+}
 
-            if (args.Length < 3)
-            {
-                Console.WriteLine("Usage: filter <level> <file>");
-                return;
-            }
-            else
+
+else if (command == "filter")
+{
+    if (args.Length < 3 ) 
+    {
+        Console.WriteLine("Usage: filter <level> <file>");
+        return;
+    }
+
+        var level = args[1];
+        var path = args[2];
+        var normalizedLevel = level.ToLower();
+        string levelTag;
+
+            if (
+                normalizedLevel != "info"
+                && normalizedLevel != "warn"
+                && normalizedLevel != "error"
+                ) 
                 {
-                    var lines = utils.ReadLogFile(path);
-                    Console.WriteLine($"Print the count of lines: {lines.Count}");
-                }
-
-                Console.WriteLine($"Filter called with level={normalizedLevel} and path={path}");
-
-                if (
-                    normalizedLevel != "info"
-                    && normalizedLevel != "warn"
-                    && normalizedLevel != "error"
-                )
-                {
-                    Console.WriteLine(
-                        $"Unknown level: {normalizedLevel}. Expected: info | warn | error."
-                    );
+                    Console.WriteLine($"Unknown level: {normalizedLevel}. Expected: info | warn | error.");
                     return;
-
-                    string levelTag = "[INFO]";
                 }
 
-                if (normalizedLevel == "info")
+        if (normalizedLevel == "info")
                 {
                     levelTag = "[INFO]";
                 }
@@ -92,20 +88,18 @@ public class CliRunner
                     levelTag = "[ERROR]";
                 }
 
-            else if (args.Length >= 3)
-            {
-                var level = args[1];
-                var path = args[2];
-                var normalizedLevel = level.ToLower();
-                
-            }
-        }
-    }
-}
+                if(!File.Exists(path)) 
+                {
+                    Console.WriteLine("File does not exist!");
+                    return;
+                }
+                 else
+                {
+                    var lines = utils.ReadLogFile(path);
+                    Console.WriteLine($"Print the count of lines: {lines.Count}");
+                }
 
 
-else if (command == "filter")
-{
     // 1. guard args.Length
     // 2. extract level + path
     // 3. normalize + validate level

@@ -103,6 +103,19 @@ public class CliRunner
     }
 }
 
+
+else if (command == "filter")
+{
+    // 1. guard args.Length
+    // 2. extract level + path
+    // 3. normalize + validate level
+    // 4. map levelTag ("[INFO]" etc.)
+    // 5. check file exists
+    // 6. read lines
+    // 7. filter + count + print
+}
+
+
 // 1. Check if args has at least 1 argument.
 //    If not, print help message and exit.
 

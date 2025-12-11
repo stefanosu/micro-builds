@@ -47,58 +47,56 @@ public class CliRunner
                 }
             }
         }
-        
-    }
-}
+        else if (command == "filter")
+        {
+            if (args.Length < 3)
+            {
+                Console.WriteLine("Usage: filter <level> <file>");
+                return;
+            }
 
-
-else if (command == "filter")
-{
-    if (args.Length < 3 ) 
-    {
-        Console.WriteLine("Usage: filter <level> <file>");
-        return;
-    }
-
-        var level = args[1];
-        var path = args[2];
-        var normalizedLevel = level.ToLower();
-        string levelTag;
+            var level = args[1];
+            var path = args[2];
+            var normalizedLevel = level.ToLower();
+            string levelTag;
 
             if (
                 normalizedLevel != "info"
                 && normalizedLevel != "warn"
                 && normalizedLevel != "error"
-                ) 
-                {
-                    Console.WriteLine($"Unknown level: {normalizedLevel}. Expected: info | warn | error.");
-                    return;
-                }
+            )
+            {
+                Console.WriteLine(
+                    $"Unknown level: {normalizedLevel}. Expected: info | warn | error."
+                );
+                return;
+            }
 
-        if (normalizedLevel == "info")
-                {
-                    levelTag = "[INFO]";
-                }
-                else if (normalizedLevel == "warn")
-                {
-                    levelTag = "[WARN]";
-                }
-                else
-                {
-                    levelTag = "[ERROR]";
-                }
+            if (normalizedLevel == "info")
+            {
+                levelTag = "[INFO]";
+            }
+            else if (normalizedLevel == "warn")
+            {
+                levelTag = "[WARN]";
+            }
+            else
+            {
+                levelTag = "[ERROR]";
+            }
 
-                if(!File.Exists(path)) 
-                {
-                    Console.WriteLine("File does not exist!");
-                    return;
-                }
-                 else
-                {
-                    var lines = utils.ReadLogFile(path);
-                    Console.WriteLine($"Print the count of lines: {lines.Count}");
-                }
-
+            if (!File.Exists(path))
+            {
+                Console.WriteLine("File does not exist!");
+                return;
+            }
+            else
+            {
+                var lines = utils.ReadLogFile(path);
+                Console.WriteLine($"Print the count of lines: {lines.Count}");
+            }
+        }
+    }
 
     // 1. guard args.Length
     // 2. extract level + path

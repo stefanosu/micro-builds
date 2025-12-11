@@ -97,31 +97,4 @@ public class CliRunner
             }
         }
     }
-
-    // 1. guard args.Length
-    // 2. extract level + path
-    // 3. normalize + validate level
-    // 4. map levelTag ("[INFO]" etc.)
-    // 5. check file exists
-    // 6. read lines
-    // 7. filter + count + print
 }
-
-
-// 1. Check if args has at least 1 argument.
-//    If not, print help message and exit.
-
-// 2. Read the first argument → command.
-
-// 3. If command == "greet":
-//        Make sure args[1] exists.
-//        Print "Hello, <name>!"
-
-// 4. Else if command == "count":
-//        Make sure args[1] exists.
-//        Check if file exists.
-//        Read the file.
-//        Print number of lines.
-
-// 5. Else:
-//        Print "Unknown command".

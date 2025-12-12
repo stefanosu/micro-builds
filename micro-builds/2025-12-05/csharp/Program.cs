@@ -59,6 +59,7 @@ public class CliRunner
             var path = args[2];
             var normalizedLevel = level.ToLower();
             string levelTag;
+            int matchCount = 0;
 
             if (
                 normalizedLevel != "info"
@@ -93,7 +94,16 @@ public class CliRunner
             else
             {
                 var lines = utils.ReadLogFile(path);
-                Console.WriteLine($"Print the count of lines: {lines.Count}");
+
+                foreach (var line in lines)
+                {
+                    if (line.Contains(levelTag))
+                    {
+                        Console.WriteLine($"Print the line {line}");
+                        matchCount++;
+                    }
+                }
+                Console.WriteLine($"Matched {matchCount} lines for {levelTag}.");
             }
         }
     }

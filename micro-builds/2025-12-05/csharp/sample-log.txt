@@ -1,0 +1,8 @@
+[INFO] Application started successfully.
+[WARN] Cache is disabled — performance may be impacted.
+[ERROR] Failed to connect to database.
+[INFO] Request received: GET /users
+[INFO] User authentication succeeded.
+[WARN] Slow response detected: /users
+[ERROR] NullReferenceException thrown during processing.
+[INFO] Application shutdown initiated.

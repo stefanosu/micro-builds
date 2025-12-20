@@ -1,14 +1,12 @@
 ﻿using MicroBuilds.LogParser;
 
+var path = "file.txt";
 
-    var path = "file.txt"; 
+LogParser parser = new LogParser();
 
-    LogParser parser = new LogParser();
+var result = parser.ReadLogFile(path);
 
-    var result = parser.ReadLogFile(path);
-    
-    foreach(string line in result) 
-    {
-    Console.WriteLine( $"print out every file line {line}");
-
-    }    
+foreach (string line in result)
+{
+    Console.WriteLine($"print out every file line {line}");
+}

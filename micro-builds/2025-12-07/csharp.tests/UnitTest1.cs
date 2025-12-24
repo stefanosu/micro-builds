@@ -1,3 +1,6 @@
+using System.Collections.Generic;
+using Xunit;
+
 namespace csharp.tests;
 
 public class UnitTest1
@@ -9,13 +12,13 @@ public class UnitTest1
 
     [Fact]
     public void ReturnMatchesTest()
-    { 
-        var LogFilter
+    {
+        var logFilter = new LogFilter();
 
-        List<string> lines = new List<string>();
+        List<string> lines = new List<string> { "[ERROR]", "[WARN]" };
 
-        return LogFilter.ReturnMatches("[ERROR]", lines);
+        var result = logFilter.ReturnMatches("[ERROR]", lines);
 
-        asserts(lines.Contains(levelTag));
+        Assert.Equal(1, result.Count);
     }
 }

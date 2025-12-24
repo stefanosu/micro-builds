@@ -18,7 +18,6 @@
 /Users/stefanosugbit/Documents/micro-builds/micro-builds/2025-12-07/csharp.tests/bin/Debug/net8.0/Microsoft.VisualStudio.TestPlatform.Common.dll
 /Users/stefanosugbit/Documents/micro-builds/micro-builds/2025-12-07/csharp.tests/bin/Debug/net8.0/testhost.dll
 /Users/stefanosugbit/Documents/micro-builds/micro-builds/2025-12-07/csharp.tests/bin/Debug/net8.0/Newtonsoft.Json.dll
-/Users/stefanosugbit/Documents/micro-builds/micro-builds/2025-12-07/csharp.tests/bin/Debug/net8.0/NuGet.Frameworks.dll
 /Users/stefanosugbit/Documents/micro-builds/micro-builds/2025-12-07/csharp.tests/bin/Debug/net8.0/xunit.abstractions.dll
 /Users/stefanosugbit/Documents/micro-builds/micro-builds/2025-12-07/csharp.tests/bin/Debug/net8.0/xunit.assert.dll
 /Users/stefanosugbit/Documents/micro-builds/micro-builds/2025-12-07/csharp.tests/bin/Debug/net8.0/xunit.core.dll
@@ -102,3 +101,5 @@
 /Users/stefanosugbit/Documents/micro-builds/micro-builds/2025-12-07/csharp.tests/obj/Debug/net8.0/csharp.tests.pdb
 /Users/stefanosugbit/Documents/micro-builds/micro-builds/2025-12-07/csharp.tests/obj/Debug/net8.0/csharp.tests.genruntimeconfig.cache
 /Users/stefanosugbit/Documents/micro-builds/micro-builds/2025-12-07/csharp.tests/obj/Debug/net8.0/ref/csharp.tests.dll
+/Users/stefanosugbit/Documents/micro-builds/micro-builds/2025-12-07/csharp.tests/bin/Debug/net8.0/.msCoverageSourceRootsMapping_csharp.tests
+/Users/stefanosugbit/Documents/micro-builds/micro-builds/2025-12-07/csharp.tests/bin/Debug/net8.0/xunit.runner.visualstudio.testadapter.dll

@@ -1,6 +1,5 @@
-﻿var utils = new FileTools();
-var cli = new CliRunner();
-cli.commandLineLogic(args, utils);
+﻿using System.Collections.Generic;
+using System.IO;
 
 public class LogFilter
 {
